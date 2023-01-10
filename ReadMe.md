@@ -37,4 +37,4 @@ npm run start
 ```
 
 - Danach öffne folgenden link um die Anwendung zu verwenden: ***http://localhost:3000***  
-- Die API kannst unterfolgenden link mit Swagger testen: ***http://localhost:3000/documentation***
+- Die API kann unterfolgenden link mit Swagger testen: ***http://localhost:3000/documentation***
