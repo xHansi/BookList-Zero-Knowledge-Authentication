@@ -1,0 +1,17 @@
+<form class="box" action="/booklist/{{booklist._id}}/addbook" method="POST">
+  <label>Buch Details:</label>
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field">
+        <input class="input" type="text" placeholder="Titel" name="title">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder="Autor" name="autor">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder="Seitenanzahl" name="seitenanzahl">
+      </div>
+    </div>
+  </div>
+  <button class="button is-primary" style="background-color: rgba(189, 68, 242)">Buch Hinzufügen</button>
+</form>

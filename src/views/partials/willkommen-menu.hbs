@@ -1,0 +1,19 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    {{> booklist-brand}}
+  </div>
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+         <a class="button" id="zero_knowledge_login" href="/login_with_zero_knowledge"> Zero Knowledge Anmeldung </a> <a class="button" id="login" href="/login"> Anmelden </a> 
+         <a class="button" id="signup" href="/signup"> Regestrieren </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.getElementById("{{active}}").classList.add("is-primary");
+</script>

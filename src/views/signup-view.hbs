@@ -1,0 +1,27 @@
+{{> willkommen-menu active="signup"}}
+
+<section class="section">
+  <h1 class="title">Regestrieren</h1>
+  <form action="/register" method="POST">
+    <label class="label">Name</label>
+    <div class="field is-horizontal">
+      <div class="field-body">
+        <div class="field">
+          <input class="input" type="text" placeholder="Vorname" name="firstName">
+        </div>
+        <div class="field">
+          <input class="input" type="text" placeholder="Nachname" name="lastName">
+        </div>
+      </div>
+    </div>
+    <div class="field">
+      <label class="label">Email</label> <input class="input" type="text" placeholder="Email" name="email">
+    </div>
+    <div class="field">
+      <label class="label">Passwort</label> <input class="input" type="password" placeholder="Passwort" name="password">
+    </div>
+    <div class="field is-grouped">
+      <button class="button is-link " style="background-color: rgba(189, 68, 242)">Regestrieren</button>
+    </div>
+  </form>
+</section>

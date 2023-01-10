@@ -1,0 +1,30 @@
+<table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>Buch</th>
+      <th>Autor</th>
+      <th>Seitenanzahl</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+     {{#each booklist.books}}
+      <tr>
+        <td>
+          {{title}}
+        </td>
+        <td>
+          {{autor}}
+        </td>
+        <td>
+          {{seitenanzahl}}
+        </td>
+         <td>
+          <a href="/booklist/{{../booklist._id}}/deletebook/{{_id}}" class="ui icon button">
+            <i class="fas fa-trash"></i>
+          </a>
+        </td>
+      </tr>
+    {{/each}} 
+  </tbody>
+</table>

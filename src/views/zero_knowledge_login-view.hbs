@@ -1,0 +1,16 @@
+{{> willkommen-menu active="zero_knowledge_login"}}
+
+<section class="section">
+  <h1 class="title">Anmelden</h1>
+  <form action="/authenticate_with_zero_knowledge" method="POST">
+    <div class="field">
+      <label class="label">Email</label> <input class="input" type="text" placeholder="Gib deine Email ein" name="email">
+    </div>
+    <div class="field">
+      <label class="label">Password</label> <input class="input" type="password" placeholder="Passwort" name="password">
+    </div>
+    <div class="field is-grouped">
+      <button class="button is-link" style="background-color: rgba(189, 68, 242)">Zero Knowledge Anmeldung</button>
+    </div>
+  </form>
+</section>
