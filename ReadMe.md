@@ -14,8 +14,8 @@ BookList ist eine simple Webanwendung, die deren Usern ermöglicht, Daten über 
 ```bash
  node -v
  ```
-```
-bash npm -v
+```bash 
+npm -v
 ```
 
 Die Ausgabe sollten die Versionsnummern von Node.js und npm sein, entsprechend.
