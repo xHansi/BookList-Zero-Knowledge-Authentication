@@ -65,8 +65,13 @@ export const accountsController = {
     handler: async function (request, h) {
       const { email, password } = request.payload;
       const user = await db.userStore.getUserByEmail(email);
-      const passwordMatch = await bcrypt.compare(password, user.password_als_hashwert)
 
+      if(!user){
+        return h.redirect("/");
+      }
+
+      const passwordMatch = await bcrypt.compare(password, user.password_als_hashwert)
+      
       if (!user || !passwordMatch /*user.password !== password_als_klartext*/) {
         return h.redirect("/");
       }
@@ -114,6 +119,10 @@ export const accountsController = {
     handler: async function (request, h) {
       const { email, password } = request.payload;
       const user = await db.userStore.getUserByEmail(email);
+
+      if(!user){
+        return h.redirect("/");
+      }
 
       //Check ob das Passswort die den Zero-Knowledge-Key lösen kann
       const passwordMatch = await zero_knowledge_proof.check_zero_knowledge_key(password, user.zero_knowledge_key);
