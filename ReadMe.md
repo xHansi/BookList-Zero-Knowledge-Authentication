@@ -3,7 +3,7 @@
 ## Johannes Erhard - Ostbayerische Technische Hochschule Regensburg
 
 ### BookList
-Dies ist eine Beispiel-Webanwendung zur Verwendung von Zero-Knowledge-Authentifizierung für Online-Services. Sie wurde mit JavaScript, HTML und CSS sowie verschiedenen Frameworks und Bibliotheken erstellt, darunter Hapi.js, bcrypt, Handlebars und JWT.
+Dies ist eine Beispiel-Webanwendung zur Verwendung von Zero-Knowledge-Authentifizierung für Online-Services. Sie wurde mit JavaScript, HTML und CSS sowie verschiedenen Frameworks und Bibliotheken erstellt, darunter Node.js, Hapi.js, Handlebars und JWT.
 
 Das Authentifizierungsprotokoll dieser Anwendung gewährleistet, dass Benutzerdaten sogar vor dem Server geschützt bleiben. Die Anwendung bietet verschiedene Funktionen wie Benutzerregistrierung, Kontoverwaltung und Zero-Knowledge-Authentifizierung, die es den Benutzern ermöglicht, sich einzuloggen, ohne ihr Passwort oder andere vertrauliche Informationen preiszugeben. Zusätzlich ermöglicht die Anwendung das Speichern von Buchdaten und verfügt über ein Login-Feature, das sowohl Passwort-Authentifizierung als auch Zero-Knowledge-Authentifizierung unterstützt.
 
