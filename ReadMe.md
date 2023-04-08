@@ -12,7 +12,7 @@ BookList ist eine simple Webanwendung, die deren Usern ermöglicht, Daten über 
 - Überprüfe, ob Node.js und npm (Node Package Manager) erfolgreich installiert wurden, indem du die folgenden Befehle in deiner Kommandozeile ausführst:
 
 ```bash
- node -v
+node -v
  ```
 ```bash 
 npm -v
