@@ -17,12 +17,14 @@ Diese Webanwendung wurde als Teil einer Bachelorarbeit zur Demonstration von Zer
 - Joi
 - uuid
 - dotenv
-- Hapi-auth-jwt2
-- Hapi-swagger
-- Inert
-- Vision
-- Boom
-- Cookie
+- Hapi.js
+    - Hapi-auth-jwt2
+    - Hapi-swagger
+    - Hapi-Inert
+    - Hapi-Vision
+    - Hapi-Boom
+    - Hapi-Cookie
+
 ### Installation und Ausführung 
 #### Installation von Node.js
 - Lade den für dein Betriebssystem geeigneten Installer von der [Node.js Webseite](https://nodejs.org/en/download/) herunter.
