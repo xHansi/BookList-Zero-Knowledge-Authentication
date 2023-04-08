@@ -3,8 +3,26 @@
 ## Johannes Erhard - Ostbayerische Technische Hochschule Regensburg
 
 ### BookList
-BookList ist eine simple Webanwendung, die deren Usern ermöglicht, Daten über Bücher zu Speichern. Die Besonderheit der Anwendung ist, dass sie für das Login-Feature für User, eine Passwort-Authentifizierung und eine Zero-Knowledge-Authentifizierung verfügt. Diese Anwendung wurde zur Zero-Knowledge Demonstration für eine Bachelorarbeit implementiert.
+Dies ist eine Beispiel-Webanwendung zur Verwendung von Zero-Knowledge-Authentifizierung für Online-Services. Sie wurde mit JavaScript, HTML und CSS sowie verschiedenen Frameworks und Bibliotheken erstellt, darunter Hapi.js, bcrypt, Handlebars und JWT.
 
+Das Authentifizierungsprotokoll dieser Anwendung gewährleistet, dass Benutzerdaten sogar vor dem Server geschützt bleiben. Die Anwendung bietet verschiedene Funktionen wie Benutzerregistrierung, Kontoverwaltung und Zero-Knowledge-Authentifizierung, die es den Benutzern ermöglicht, sich einzuloggen, ohne ihr Passwort oder andere vertrauliche Informationen preiszugeben. Zusätzlich ermöglicht die Anwendung das Speichern von Buchdaten und verfügt über ein Login-Feature, das sowohl Passwort-Authentifizierung als auch Zero-Knowledge-Authentifizierung unterstützt.
+
+Diese Webanwendung wurde als Teil einer Bachelorarbeit zur Demonstration von Zero-Knowledge-Authentifizierung entwickelt und implementiert. Der Code ist gut strukturiert und dokumentiert.
+
+### Verwendete Frameworks und Bibliotheken
+- Hapi.js
+- bcrypt
+- Handlebars
+- JWT
+- Joi
+- uuid
+- dotenv
+- Hapi-auth-jwt2
+- Hapi-swagger
+- Inert
+- Vision
+- Boom
+- Cookie
 ### Installation und Ausführung 
 #### Installation von Node.js
 - Lade den für dein Betriebssystem geeigneten Installer von der [Node.js Webseite](https://nodejs.org/en/download/) herunter.
